@@ -237,7 +237,18 @@ body{
 .sign a:hover{
     border-bottom: 1px solid royalblue;
 }
+@media (max-width: 668px){
+    .buttons button{
+        width: 33%;
+    }
+    .social{
+        width: 20%;
+    }
+}
 @media (max-width: 500px){
+    .top img{
+        width: 15%;
+    }
     .title{
         text-align: center;
     }
